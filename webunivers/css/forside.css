@@ -10,7 +10,6 @@
     font-style: normal;
   }
   
-
 body {
     font-family: Helvetica;
     text-decoration: none;
@@ -119,8 +118,7 @@ header label {
     display: none;
 }
 
-@media(max-width:991px){
-
+@media(max-width: 1469px){
 
     header {
         padding: 20px;
@@ -128,6 +126,8 @@ header label {
     
     header label {
         display: block;
+        font-family: Poetsen One;
+        color:#490000
     }
 
     header .navbar{
